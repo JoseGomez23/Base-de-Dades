@@ -1,6 +1,6 @@
 <h1>Exercicis UF3</h1>
 <a href="https://github.com/JoseGomez23/Base-de-Dades/blob/main/UF3/Database.md">(Click aqui per anar a la base de dades)</a>
-
+<br>
 Exercici 1 - Fes una funció anomenada spData, tal que donada una data en format
 MySQL ( AAAA-MM-DD ) ens retorni una cadena de caràcters en format DD-MM-AAAA
 Exemple : SELECT spData('1988-12-01') => 01-12-1988
