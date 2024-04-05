@@ -21,4 +21,4 @@ ________________________
   - Cursors
   - Procedures
   - Handlers
-## Bases de dades utilitzades per fer els exercicis
+
