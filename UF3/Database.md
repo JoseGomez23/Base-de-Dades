@@ -1,4 +1,4 @@
-Base de dades (rrhh)
+<h1>Base de dades --> RRHH</h1>
 
 ```mysql
 /* Eliminem la base de dades si existeix */
