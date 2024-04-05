@@ -1,5 +1,3 @@
-# Codi de la base de dades
-
 /* Eliminem la base de dades si existeix */
 DROP DATABASE IF EXISTS rrhh;
 
