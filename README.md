@@ -4,8 +4,10 @@
 
 # CONTENTS
 
+## Exercicis UF1
+## Exercicis UF2
 ## Exercicis UF3 
   - Cursors
   - Procedures
   - Handlers
-## Base de dades utilitzada per fer els exercicis
+## Bases de dades utilitzades per fer els exercicis
