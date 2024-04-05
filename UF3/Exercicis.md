@@ -32,3 +32,11 @@ Més de 20 anys -> Que es jubili!</h3>
 <h3>Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada
 empleat, el codi d’empleat, el nom, els anys treballats i la categoria professional a la que
 pertany.</h3>
+
+<h3>Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre
+ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.</h3>
+  
+<h3>Exercici 9 - Fes una funció que ens retorni el número de directors (caps) diferents tenim.</h3>
+
+<h3>Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
+spPringat?</h3>
