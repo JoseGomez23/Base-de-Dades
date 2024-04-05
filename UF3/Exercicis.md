@@ -1,42 +1,42 @@
 <h1>Exercicis UF3</h1>
 <a href="https://github.com/JoseGomez23/Base-de-Dades/blob/main/UF3/Database.md">(Click aqui per anar a la base de dades)</a>
 
-<h3>Exercici 1 - Fes una funció anomenada spData, tal que donada una data en format
+Exercici 1 - Fes una funció anomenada spData, tal que donada una data en format
 MySQL ( AAAA-MM-DD ) ens retorni una cadena de caràcters en format DD-MM-AAAA
-Exemple : SELECT spData('1988-12-01') => 01-12-1988</h3>
+Exemple : SELECT spData('1988-12-01') => 01-12-1988
 
-<h3>Exercici 2 - Fes una funció anomenada spPotencia, tal que donada una base i un
+Exercici 2 - Fes una funció anomenada spPotencia, tal que donada una base i un
 exponent, ens calculi la seva potència. Intenta no utilitzar la funció POW.
-Exemple : SELECT spPotencia(2,3) => 8</h3>
+Exemple : SELECT spPotencia(2,3) => 8<
 
-<h3>Exercici 3 - Fes una funció anomenada spIncrement que donat un codi d’empleat i un
+Exercici 3 - Fes una funció anomenada spIncrement que donat un codi d’empleat i un
 % de increment, ens calculi el salari sumant aquest percentatge.
 Per exemple, suposem que l’ empleat amb id_empleat = 124 té un salari de 1000
-Exemple: SELECT spIncrement(124,10) obtindriem -> 1100</h3>
+Exemple: SELECT spIncrement(124,10) obtindriem -> 1100
 
-<h3>Exercici 4 - Fes una funció anomenada spPringat, tal que li passem un codi de
-departament, i ens torni el codi d’empleat que guanya menys d’aquell departament.</h3>
+ Exercici 4 - Fes una funció anomenada spPringat, tal que li passem un codi de
+departament, i ens torni el codi d’empleat que guanya menys d’aquell departament.
 
-<h3>Exercici 5 - Utilitzant la funció spPringat fes una consulta per obtenir de cada
-departament, l’empleat pringat. Mostra el codi i nom del departament, i el codi d’empleat.</h3>
+Exercici 5 - Utilitzant la funció spPringat fes una consulta per obtenir de cada
+departament, l’empleat pringat. Mostra el codi i nom del departament, i el codi d’empleat.
 
-<h3>Exercici 6 - Fes una funció anomenada spCategoria, tal que donat un codi d’empleat,
+Exercici 6 - Fes una funció anomenada spCategoria, tal que donat un codi d’empleat,
 ens digui en quina categoria professional està. El criteri que volem seguir per determinar
 la categoria professional és en funció dels anys que porta treballant a l’empresa:
 
 Entre 0 i 1 anys -> Auxiliar
 Entre 2 i 10 anys -> Oficial de Segona
 Entre 11 i 20 Anys -> Oficial de Primera
-Més de 20 anys -> Que es jubili!</h3>
+Més de 20 anys -> Que es jubili!
 
-<h3>Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada
+Exercici 7 - Fes una consulta utilitzant la funció anterior perquè mostri mostri de cada
 empleat, el codi d’empleat, el nom, els anys treballats i la categoria professional a la que
-pertany.</h3>
+pertany.
 
-<h3>Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre
-ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.</h3>
+Exercici 8 - Fes una funció anomenada spEdat, tal que donada una data per paràmetre
+ens retorni l'edat d'una persona. Les dates posteriors a la data d'avui han de retornar 0.
   
-<h3>Exercici 9 - Fes una funció que ens retorni el número de directors (caps) diferents tenim.</h3>
+Exercici 9 - Fes una funció que ens retorni el número de directors (caps) diferents tenim.
 
-<h3>Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
-spPringat?</h3>
+Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
+spPringat?
