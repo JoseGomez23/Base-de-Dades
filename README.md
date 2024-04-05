@@ -6,7 +6,7 @@
 
 ## Exercicis UF1
 ## Exercicis UF2
-<a href="https://github.com/JoseGomez23/Base-de-Dades/edit/main/UF3/Exercicis.md">Exercicis UF3</a>
+<a href="https://github.com/JoseGomez23/Base-de-Dades/blob/main/UF3/Exercicis.md">Exercicis UF3</a>
   - Cursors
   - Procedures
   - Handlers
