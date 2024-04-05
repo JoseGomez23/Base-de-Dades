@@ -5,16 +5,19 @@
 # CONTENTS
 
 ## Exercicis UF1
+
+
 _________________________
-## Exercicis UF2
-_________________________
+<a href="https://github.com/JoseGomez23/Base-de-Dades/blob/main/UF3/Exercicis.md">Exercicis UF2</a>
   - Inserts, updates and deletes
   - Consultes
   - Subconsultes
   - Joins
   - Window functions
+
+________________________
 <a href="https://github.com/JoseGomez23/Base-de-Dades/blob/main/UF3/Exercicis.md">Exercicis UF3</a>
-_________________________
+
   - Cursors
   - Procedures
   - Handlers
