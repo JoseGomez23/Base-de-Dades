@@ -1,4 +1,4 @@
-#Base de dades
+Base de dades (rrhh)
 
 ```mysql
 /* Eliminem la base de dades si existeix */
