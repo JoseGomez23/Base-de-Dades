@@ -50,3 +50,54 @@ Exercici 9 - Fes una funció que ens retorni el número de directors (caps) dife
 Exercici 10 - Quina instrucció utilitzarem si volem veure el contingut de la funció
 spPringat?
 
+
+#Exercicis procediments
+
+Exercici 1 - Fes un procediment que permeti obtenir la data i hora del sistema i l’usuari
+actual.
+
+
+Exercici 2 - Fes un procediment que intercanvii el sou de dos empleats passats per
+paràmetre.
+
+
+Exercici 3 - Fes un procediment que donat dos Ids d'empleat assigni el codi de
+departament del primer en el segon.
+
+
+Exercici 4 - Fes un procediment que donat dos codis de departament assigni tots els
+empleats del segon en el primer. Un cop executat el procediment el departament que
+correspont en el segon paràmetre ha de quedar desert/sense cap empleat.
+
+
+Exercici 5 - Fes un procediment per mostrar un llistat dels empleats. Volem veure el
+id_empleat, nom_empleat, nom_departament i el nom de la localització del departament.
+
+
+Exercici 6 - Fes un procediment que donat un codi d’empleat, ens doni la informació de
+l’empleat ( agafa la informació que creguis rellevant).
+
+
+Exercici 7 - Volem fer un registre dels usuaris que entren al nostre sistema. Per fer-ho
+primer caldrà crear una taula amb dos camps, un per guardar l’usuari i l’altre per guardar
+la data i hora de l’accés.
+
+
+Exercici 8 - A continuació feu un procediment sense arguments, de manera que cada
+vegada que el crideu, insereixi en aquesta taula l’usuari actual i la data i hora en que s’ha
+executat el procediment.
+
+
+Exercici 9 - Fes un procediment que ens permeti afegir un nou departament però amb la
+següent particularitat: En cas que la localització no existeixi a la taula localitzacions, ens
+posarà un NULL en el camp id_localtizacio de la taula departaments. Al procediment li
+hem de passar el codi de departament, el nom del departament i el codi de la localització.
+
+
+Exercici 10 - Fes un procediment que donat un codi d’empleat, ens posi en paràmetres
+de sortida el nom i el cognom. Indica com ho pots fer per comprovar si el procediment et
+funciona.
+
+
+Exercici 11 - Fes un procediment que ens permeti modificar el nom i cognom d’un
+empleat.
