@@ -69,6 +69,24 @@ Exercici 4 - Fes un procediment que donat dos codis de departament assigni tots 
 empleats del segon en el primer. Un cop executat el procediment el departament que
 correspont en el segon paràmetre ha de quedar desert/sense cap empleat.
 
+```mysql
+DROP PROCEDURE IF EXISTS spMoureEmpleats;
+DELIMITER //
+CREATE PROCEDURE spMoureEmpleats (IN pDepId1 INT , IN pDepId2 INT)
+BEGIN
+
+IF pDepId1 IS NOT NULL THEN
+	UPDATE empleats
+		SET departament_id = pDepId1
+	WHERE departament_id = pDepId2;
+
+END IF;
+
+END ;
+//
+DELIMITER ;
+```
+
 
 Exercici 5 - Fes un procediment per mostrar un llistat dels empleats. Volem veure el
 id_empleat, nom_empleat, nom_departament i el nom de la localització del departament.
