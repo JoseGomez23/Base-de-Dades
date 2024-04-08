@@ -64,6 +64,29 @@ paràmetre.
 Exercici 3 - Fes un procediment que donat dos Ids d'empleat assigni el codi de
 departament del primer en el segon.
 
+```mysql
+CREATE PROCEDURE spCambiarDep (IN pEmpleatId1 INT, IN pEmpleatId2 INT)
+BEGIN
+
+DECLARE vDepEmp1 INT;
+
+-- Comprova que els 22 empleats existeixin
+IF spEmpleatExisteix (pEmpleatId1) = 1
+    AND spEmpleatExisteix (pEmpleatId2) = 1 THEN
+-- Obtenir departament_id de pEmpleatId1
+SELECT departament_id INTO vDepEmp1
+    FROM empleats
+WHERE empleat_id = pEmpleatId1;
+
+-- Modificar departament_id de pEmpleatId2
+UPDATE empleats 
+    SET departament_id = vDepEmp1
+WHERE empleat_id = pEmpleatId2;
+
+END IF; 
+END//
+```
+
 
 Exercici 4 - Fes un procediment que donat dos codis de departament assigni tots els
 empleats del segon en el primer. Un cop executat el procediment el departament que
