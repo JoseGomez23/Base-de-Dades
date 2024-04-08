@@ -69,7 +69,7 @@ CREATE PROCEDURE spCambiarDep (IN pEmpleatId1 INT, IN pEmpleatId2 INT)
 BEGIN
 
 DECLARE vDepEmp1 INT;
-
+DELIMITER//
 -- Comprova que els 22 empleats existeixin
 IF spEmpleatExisteix (pEmpleatId1) = 1
     AND spEmpleatExisteix (pEmpleatId2) = 1 THEN
@@ -84,7 +84,8 @@ UPDATE empleats
 WHERE empleat_id = pEmpleatId2;
 
 END IF; 
-END//
+END ;
+//
 ```
 
 
