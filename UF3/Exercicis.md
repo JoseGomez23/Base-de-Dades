@@ -73,6 +73,21 @@ correspont en el segon paràmetre ha de quedar desert/sense cap empleat.
 Exercici 5 - Fes un procediment per mostrar un llistat dels empleats. Volem veure el
 id_empleat, nom_empleat, nom_departament i el nom de la localització del departament.
 
+```mysql
+DROP PROCEDURE IF EXISTS spMostrarLlistat;
+DELIMITER //
+CREATE PROCEDURE spMostrarLlistat ()
+BEGIN
+
+	SELECT e.empleat_id, e.nom, d.nom, l.ciutat AS nom
+		FROM empleats e
+        INNER JOIN departaments d ON d.departament_id = e.departament_id
+        INNER JOIN localitzacions l ON l.localitzacio_id = d.localitzacio_id;
+
+END ;
+// 
+DELIMITER ;```
+
 
 Exercici 6 - Fes un procediment que donat un codi d’empleat, ens doni la informació de
 l’empleat ( agafa la informació que creguis rellevant).
