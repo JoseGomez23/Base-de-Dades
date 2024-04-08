@@ -86,7 +86,7 @@ BEGIN
 
 END ;
 // 
-DELIMITER ;```
+DELIMITER ; ```
 
 
 Exercici 6 - Fes un procediment que donat un codi d’empleat, ens doni la informació de
