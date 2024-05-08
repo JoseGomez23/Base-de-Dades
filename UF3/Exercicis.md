@@ -136,6 +136,25 @@ DELIMITER ;
 Exercici 6 - Fes un procediment que donat un codi d’empleat, ens doni la informació de
 l’empleat ( agafa la informació que creguis rellevant).
 
+```mysql
+DROP PROCEDURE IF EXISTS spMostrarInfoRellevant;
+DELIMITER //
+CREATE PROCEDURE spMostrarInfoRellevant(pEmpleat_id INT)
+BEGIN
+
+	IF comprovacio (empleat_id) = 1 
+    THEN
+    SELECT nom, cognoms, feina_codi, salari, departament_id
+		FROM empleats e
+	WHERE e.empleat_id = pEmpleat_id;
+
+END IF ;
+END ;
+//
+DELIMITER ;
+
+```
+
 
 Exercici 7 - Volem fer un registre dels usuaris que entren al nostre sistema. Per fer-ho
 primer caldrà crear una taula amb dos camps, un per guardar l’usuari i l’altre per guardar
@@ -145,7 +164,19 @@ la data i hora de l’accés.
 Exercici 8 - A continuació feu un procediment sense arguments, de manera que cada
 vegada que el crideu, insereixi en aquesta taula l’usuari actual i la data i hora en que s’ha
 executat el procediment.
+```mysql
+DROP PROCEDURE IF EXISTS spRegistrarUsuari
+DELIMITER //
+CREATE PROCEDURE spRegistrarUsuari()
+BEGIN
 
+	INSERT INTO registre_usuaris(usuari,access)
+		VALUES(CURRENT_USER(), NOW());
+	END;
+    // 
+    DELIMITER ;
+
+```
 
 Exercici 9 - Fes un procediment que ens permeti afegir un nou departament però amb la
 següent particularitat: En cas que la localització no existeixi a la taula localitzacions, ens
